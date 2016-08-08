@@ -2,9 +2,19 @@
 body {
   padding-top: 50px;
   padding-bottom: 20px;
+  font-family: 'Open Sans', sans-serif;
+  font-size: 18px;
+}
+
+h1, h2, h3, h4, h5, h6 {
+	font-family: 'Montserrat', sans-serif;
+	margin-top: 10px;
+}
+
+.gutter {
+	padding:10px;
 }
 
 #portfolio-picture {
-	margin-top: 10px;
-	margin-bottom: 10px;
+
 }
