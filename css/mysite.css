@@ -1,20 +1,22 @@
 /* Move down content because we have a fixed navbar that is 50px tall */
 body {
-  padding-top: 50px;
-  padding-bottom: 20px;
-  font-family: 'Open Sans', sans-serif;
-  font-size: 18px;
+	padding-top: 80px;
+	padding-bottom: 20px;
+	font-family: 'Open Sans', sans-serif;
+	font-size: 18px;
 }
 
 h1, h2, h3, h4, h5, h6 {
 	font-family: 'Montserrat', sans-serif;
-	margin-top: 10px;
 }
 
-.gutter {
-	padding:10px;
+p {
+	line-height: 1.625em;
 }
 
-#portfolio-picture {
-
+.separator {
+	height: 14px;
+	margin: 15px auto;
+	background: transparent url("../images/separator.png") repeat scroll 0% 0%;
+	background-size: 100% 100%;
 }
