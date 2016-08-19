@@ -10,10 +10,10 @@
   <!-- Bootstrap -->
   <link href="css/bootstrap.min.css" rel="stylesheet">
 
-  <!-- Fonts -->
+  <!-- Google fonts Montserrat & Open Sans -->
 	<link href="https://fonts.googleapis.com/css?family=Montserrat:400,700|Open+Sans:400" rel="stylesheet">
 
-  <!-- Custome style for this page -->
+  <!-- My stylesheet for this page -->
   <link href="css/mysite.css" rel="stylesheet">
 
 	<!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
@@ -25,55 +25,66 @@
 </head>
 <body>
 
-	<!-- Navigation fixed to top of page -->
-	<nav class="navbar navbar-inverse navbar-fixed-top">
+	<div class="body-wrapper">
+		<!-- Navigation fixed to top of page -->
+		<nav class="navbar navbar-inverse navbar-fixed-top">
+			<div class="container">
+				<!-- Brand and toggle get grouped for better mobile display -->
+				<div class="navbar-header">
+					<button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar" aria-expanded="false" aria-controls="navbar">
+						<span class="sr-only">Toggle navigation</span>
+						<!-- humburger graphic -->
+						<span class="icon-bar"></span>
+						<span class="icon-bar"></span>
+						<span class="icon-bar"></span>
+					</button>
+					<a class="navbar-brand" href="#">Zach Broderick</a>
+				</div>
+
+				<!-- Collect the nav links for toggling -->
+				<div class="collapse navbar-collapse" id="navbar">
+					<ul class="nav navbar-nav navbar-right">
+						<li class="active"><a href="#">About<span class="sr-only">(current)</span></a></li>
+						<li><a href="#">Resume</a></li>
+						<li><a href="#">Contact</a></li>
+						<li><a href="#">Blog</a></li>
+					</ul>
+				</div><!-- /.navbar-collapse -->
+			</div><!-- /.container -->
+		</nav>
+
 		<div class="container">
-			<!-- Brand and toggle get grouped for better mobile display -->
-			<div class="navbar-header">
-				<button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar" aria-expanded="false" aria-controls="navbar">
-					<span class="sr-only">Toggle navigation</span>
-					<!-- humburger graphic -->
-					<span class="icon-bar"></span>
-					<span class="icon-bar"></span>
-					<span class="icon-bar"></span>
-				</button>
-				<a class="navbar-brand" href="#">Zach Broderick</a>
-			</div>
 
-			<!-- Collect the nav links for toggling -->
-			<div class="collapse navbar-collapse" id="navbar">
-				<ul class="nav navbar-nav navbar-right">
-					<li class="active"><a href="#">About<span class="sr-only">(current)</span></a></li>
-					<li><a href="#">Resume</a></li>
-					<li><a href="#">Contact</a></li>
-					<li><a href="#">Blog</a></li>
-				</ul>
-			</div><!-- /.navbar-collapse -->
-		</div><!-- /.container -->
-	</nav>
-
-	<div class="container">
-
-		<div class="row">
-			<div class="col-md-5">
-				<img src="images/portpic.png" alt="Profile Picture" class="img-rounded img-responsive center-block">
-			</div>
-			<div class="col-md-7">
+			<div class="row">
+				<div class="col-md-5">
+					<img src="images/portpic.png" alt="Profile Picture" class="img-rounded img-responsive center-block">
+				</div>
+				<div class="col-md-7">
 					<h2>About Me</h2>
-					<p>Hello! My name is Zach Broderick and I am a Web Developer, Programmer, and Game Designer living in sunny Phoenix Arizona. I enjoy anything that challenges me to learn something new. If you are an employer looking to hire a driven, motivated, and focused individual you can get in touch with me <strong><a href="#">here</a></strong>. Currently I am working as a customer service rep at GDIT, but I am seeking to break into the web development industry.</p>
+					<p>Hello! My name is Zach Broderick and I am a Web Developer, Programmer, and Game Designer living in sunny Phoenix Arizona. I enjoy anything that challenges me to learn something new. If you are an employer looking to hire a driven, motivated, and focused individual you can get in touch with me <strong><a href="#">here</a></strong>. Currently I am working as a customer service rep at <a href="http://www.generaldynamics.com/">General Dynamics</a>, but I am seeking to break into the web development industry.</p>
+				</div>
 			</div>
-		</div>
 
-		<div class="separator"></div>
+			<div class="separator"></div>
 
-		<div class="row">
-			<div class="col-sm-12">
+			<div class="row">
+				<div class="col-sm-12">
 					<h2>Too much Info</h2>
-					<p>In my spare time <small>(when I'm not chasing down my 2 year old son as he tries to pluck out his own eyes with a spoon)</small> my favorite hobby is collecting new hobbies. I have an infinite number of both current and past programming projects I'm always working on. I enjoy the performing arts, juggling/sphearing, dancing, music, skateboarding, and magic. I love videogames, especially online competitive ones. And just recently I started learning to speak German. <em>Auf Wiedersehen!</em></p>
+					<p>In my spare time (when I'm not chasing down my 2 year old son as he tries to pluck out his own eyes with a spoon) my favorite hobby is collecting new hobbies. I have an infinite number of both current and past programming projects I'm always working on. I enjoy the performing arts, juggling/sphearing, dancing, music, skateboarding, and magic. I love videogames, especially online competitive ones. And just recently I started learning to speak German. <em>Auf Wiedersehen!</em></p>
+				</div>
 			</div>
-		</div>
 
-	</div><!-- /.container -->
+		</div><!-- /.container -->
+
+		<div class="buffer"></div>
+	</div><!-- body-wrapper -->
+
+	<footer>
+		<div>
+			<p>© 2016 Zach Broderick. All rights reserved.</p>
+			<p><a href="#">Back to top</a></p>
+		</div>
+	</footer>
 
 	<!-- jQuery -->
 	<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>

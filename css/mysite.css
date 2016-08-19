@@ -1,7 +1,11 @@
 /* Move down content because we have a fixed navbar that is 50px tall */
+html {
+	height: 100%;
+}
+
 body {
+	height: 100%;
 	padding-top: 80px;
-	padding-bottom: 20px;
 	font-family: 'Open Sans', sans-serif;
 	font-size: 18px;
 }
@@ -19,4 +23,28 @@ p {
 	margin: 15px auto;
 	background: transparent url("../images/separator.png") repeat scroll 0% 0%;
 	background-size: 100% 100%;
+}
+
+.body-wrapper {
+	height: auto !important;
+	min-height: 100%;
+	margin: 0 auto -150px;
+}
+
+.buffer {
+	height: 150px;
+}
+
+footer {
+	display: flex;
+	align-items: center;
+	height: 150px;
+	color: #999;
+	text-align: center;
+	background-color: #eee;
+	border-top: 1px solid #e5e5e5;
+}
+
+footer div {
+	margin: auto;
 }
