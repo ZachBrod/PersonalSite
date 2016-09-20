@@ -3,6 +3,8 @@ GitNotes
 
 Navigation
 
+	dir 					get a listing of folders and files
+
 	cd 					change directory
 	
 	cd .. 					move up a folder
