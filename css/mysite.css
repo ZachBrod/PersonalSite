@@ -7,38 +7,18 @@ body {
 	padding-top: 50px;
 	font-family: 'Open Sans', sans-serif;
 	font-size: 18px;
-	background-color: #CDB380;
-}
-
-.navbar {
-	background-color: #033649;
-}
-
-.navbar-inverse .navbar-nav>.active>a {
-	color: white;
-	background-color: #036564;
-}
-
-.navbar-inverse .navbar-nav>li>a {
-	color: #CDB380;
-}
-
-.navbar-inverse .navbar-nav>li>a:hover {
-	color: white;
-	background-color: #031634;
-}
-
-.body-wrapper>.container {
-	background-color: #E8DDCB;
 }
 
 h1, h2, h3, h4, h5, h6 {
 	font-family: 'Montserrat', sans-serif;
-	color: #036564;
 }
 
 p {
 	line-height: 1.625em;
+}
+
+.navbar-brand {
+	font-size: 24px;
 }
 
 #profile-pic {
@@ -66,17 +46,9 @@ footer {
 	display: flex;
 	align-items: center;
 	height: 120px;
-	color: #E8DDCB;
 	text-align: center;
-	background-color: #033649;
 }
 
 footer div {
 	margin: auto;
-}
-footer a {
-	color: #CDB380;
-}
-footer a:hover {
-	color: #036564;
 }
