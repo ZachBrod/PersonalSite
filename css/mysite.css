@@ -17,6 +17,13 @@ p {
 	line-height: 1.625em;
 }
 
+.indented {
+	padding-left: 50px;
+}
+
+.btn {
+}
+
 .navbar-brand {
 	font-size: 24px;
 }
