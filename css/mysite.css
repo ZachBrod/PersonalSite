@@ -50,6 +50,12 @@ p {
 	margin-top: 22px;
 }
 
+#contact-pic {
+	margin: auto;
+	margin-top: 22px;
+	height: 300px;
+}
+
 .separator {
 	height: 14px;
 	margin: 30px auto 0 auto;
