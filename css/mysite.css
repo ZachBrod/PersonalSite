@@ -25,6 +25,10 @@ p {
 	padding-left: 50px;
 }
 
+.underline {
+	border-bottom: 1px solid #aaa;
+}
+
 #download-button {
 	display: block;
 	margin: auto;
