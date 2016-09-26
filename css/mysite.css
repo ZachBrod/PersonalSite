@@ -45,7 +45,6 @@ p {
 	text-decoration: none;
 }
 
-
 .navbar-brand {
 	font-size: 24px;
 }
@@ -57,7 +56,7 @@ p {
 #contact-pic {
 	margin: auto;
 	margin-top: 22px;
-	height: 300px;
+	max-height: 300px;
 }
 
 .separator {
