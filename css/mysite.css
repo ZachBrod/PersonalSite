@@ -51,12 +51,15 @@ p {
 
 #profile-pic {
 	margin-top: 22px;
+	width: 460px;
+	height: 300px;
 }
 
 #contact-pic {
 	margin: auto;
 	margin-top: 22px;
-	max-height: 300px;
+	width: 992px;
+	height: 248px;
 }
 
 .separator {
